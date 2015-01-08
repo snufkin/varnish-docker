@@ -1,6 +1,6 @@
-FROM        ubuntu:14.04.1
+FROM        ubuntu:14.10
 MAINTAINER  Love Nyberg "love.nyberg@lovemusic.se"
-ENV REFRESHED_AT 2014-10-18
+ENV REFRESHED_AT 2015-01-08
 
 # Update the package repository and install applications
 RUN apt-get update -qq && \
